@@ -1,3 +1,3 @@
 <?php
-$connection = mysql_connect("localhost","root","laltopi");
+$connection = mysql_connect("localhost","root","helloworld");
 ?>
