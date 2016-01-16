@@ -1,0 +1,63 @@
+.body{
+	background-color: #C2F0F0;
+}
+.header{
+	background-color: #FF4545;
+	height:15%;
+}
+
+
+#heading{
+	color: white;
+	padding-left: 34%;
+	padding-top: 1.5%;
+}
+
+.section{
+	width:60%;
+	background-color: white;
+	margin-left: 14%;
+	margin-top: 14%;
+	padding-bottom: 4%;
+}
+
+#table{
+	margin-left: 12%;
+	padding-top: 5%
+}
+
+#button{
+	width:8em;
+	margin-left: 12%;
+	margin-top: 15%;
+	background-color: #FF4545;
+	color: white;
+}
+
+#drop{
+	width:12.5em;
+	padding-left:10%;
+}
+.aside{
+	float:right;
+	margin-top: 6%;
+	margin-right:10%; 
+}
+
+#note{
+	margin-top: 5%;
+}
+
+#thank{
+	background-color: #008B8B;
+	color:white;
+	width:300%;
+	text-align: center;
+	height:15%;
+	padding:50%;
+	margin-left: 160%;
+	margin-top: -115%
+}
+
+
+}

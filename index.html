@@ -1,0 +1,112 @@
+<html>
+<head>
+	<title>Plateform Assignment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css-js/project.css"> 
+	<link rel="stylesheet" href="css-js/bootstrap.min.css">
+    <script src="css-js/jquery-2.1.0.min.js"></script>
+    <script src="css-js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+	<div class="container-fluid">
+		<div class="header">
+			<div id="heading"><h1>Plateform Assignment</h1></div>
+		</div>
+
+		<h3><marquee behavior="alternate" style="color:#304062; padding-top:2.5%;">Here you can find out the details of a train with respect to plateforms.</marquee></h3>
+
+		<div class="row">
+			<div class="col-md-5">
+				<div class="section">
+					<div class="artical">
+						<form action="css-js/page2.html">
+							<h2 style="padding-left:3%; padding-top:7%;">Plateform Locations</h2>
+							<table id="table">
+								<tr>
+									<td style="padding-top:10%">Train number-name:
+										<select id="drop">
+											<option>12181/12182 - Dayodaya</option>
+											<option>14807/14808 - Marudhar</option>
+					  						<option>12461/12462 - Mandore</option>
+					  						<option>13243/13244 - Intercity</option>
+					  						<option>14701/14702 - Kolayat</option>
+					  						<option>13287/13288 - Kosi</option>
+					  						<option>14703/14704 - GoldenTemple</option>
+					  						<option>15307/15308 - SaryuYamuna</option>
+					  						<option>15901/15902 - Budhpurnima</option>
+					  						<option>16531/16532 - GaribRath</option>
+				  						</select>
+		           					</td>
+								</tr>
+								<tr>
+									<td style="padding-top:10%">Select your city:
+										<select id="drop">
+											<option>Ajmer</option>
+											<option>Alwer</option>
+					  						<option>Bharatpur</option>
+					  						<option>Bhilwara</option>
+					  						<option>Bikaner</option>
+					  						<option>Jaipur</option>
+					  						<option>Jodhpur</option>
+					  						<option>Kishanghar</option>
+					  						<option>Kota</option>
+					  						<option>Udaipur</option>
+				  						</select>
+		           					</td>	
+								</tr>
+								
+									<td><input type="submit" value="GO" id="button"></td>
+								</tr>
+							</table>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-7">
+				<div class="aside">
+			    	<div>
+		    			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							              <!-- Indicators -->
+							<ol class="carousel-indicators">
+					            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					            <li data-target="#myCarousel" data-slide-to="1"></li>
+					            <li data-target="#myCarousel" data-slide-to="2"></li>
+					            <li data-target="#myCarousel" data-slide-to="3"></li>
+					        </ol>
+					        <div class="carousel-inner" role="listbox">
+					            <div class="item active">
+					            	<img src="img/plateform.jpg" alt="img3" height="120%" width="90%" style="margin-left:5%">
+					            </div>
+					            <div class="item">
+					                <img src="img/Collective-Wisdom.jpg" alt="img1" height="120%" width="100%">
+					            </div>
+					            <div class="item">
+					                <img src="img/Swiss-Knife.jpg" alt="img2" height="120%" width="100%">
+					            </div>
+					            <div class="item">
+					                <img src="img/Indian-Railways.jpg" alt="img0" height="50%" width="50%" style="margin-left:25%">
+					       		</div>
+					        </div>
+					        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					        	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					        	<span class="sr-only">Previous</span>
+					      	</a>
+					        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					        	<span class="sr-only">Next</span>
+					        </a>
+					    </div><!-- /.carousel -->
+    				</div>  				    	
+				</div>
+			</div>
+		</div>
+		
+		<div style="background-color:#008B8B; color:white; margin:20px; padding:50px;">
+			<center><h2>ABOUT THE PROJECT</h2><center>
+			<p>This software is to inform the passengers about the train's time and it's platform number to reach  a respective station.</p>
+		</div>
+	</div>
+</body>
+</html>
